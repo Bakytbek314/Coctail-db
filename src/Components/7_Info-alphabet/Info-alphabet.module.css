@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.cards{
+    width: 280px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.cards:hover p {
+    color: #fb9e3b;
+}
+
+.images {
+    width: 249px;
+    height: 249px;
+}
+.images img {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.cards p {
+    cursor: pointer;
+    color: #a78d9b;
+}
+
+.alphabet {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.alphabet h3 {
+    text-align: center;
+    color: #fff;
+}

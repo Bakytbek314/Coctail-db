@@ -1,0 +1,155 @@
+/*? Main Theme  */
+.theme_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    border-bottom: 3px solid #fff;
+}
+
+.theme_text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.theme_text h1{
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+}
+
+.theme_text img {
+    width: 100%;
+}
+
+/*? Search */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 3px solid #fff;
+}
+.form input {
+    width: 280px;
+    height: 40px;
+}
+.form button {
+    height: 40px;
+    width: 40px;
+}
+
+/*? Popular drinks */
+.popular_coctails {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #fff;
+}
+
+.popular_coctails h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.popular_coctails_contnent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*? Popular ingredients */
+.popularIngredients{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #fff;
+}
+
+.popularIngredients h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.popularIngredients_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*? Latest drinks */
+.latestDrinks{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #fff;
+}
+
+.latestDrinks h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.latest_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*? Random ingredients */
+.randomIngredients{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #fff;
+}
+
+.randomIngredients h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.randomIngredients_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*? Random drinks */
+.randomDrinks{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 3px solid #fff;
+}
+
+.randomDrinks h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.randomDrinks_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*? Alphabet */
+.alphabet {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.alphabet h3 {
+    text-align: center;
+    color: #fff;
+}

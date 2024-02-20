@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.drink{
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.drink:hover p {
+    color: rgb(222, 145, 0);
+}
+
+.images {
+    width: 250px;
+    height: 250px;
+}
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.drink p {
+    color: #a78d9b;
+    cursor: pointer;
+}
